@@ -1,7 +1,7 @@
-# TDYSN – YOLO-Based Top-Down Saliency Network
+# TDSal – YOLO-Based Top-Down Saliency Network
 
-**TDYSN** is a lightweight deep-learning model that predicts *task-driven visual saliency maps*.  
-Developed as an academic research project **under the supervision of Prof. Dr. Tolga Kurtuluş Çapın**, TDYSN fuses multiscale visual features from a pre-trained YOLO backbone with semantic task embeddings from Sentence-BERT via a transformer fusion block, and decodes the result into high-resolution saliency maps.
+**TDSal** is a lightweight deep-learning model that predicts *task-driven visual saliency maps*.  
+Developed as an academic research project **under the supervision of Prof. Dr. Tolga Kurtuluş Çapın**, TDSal fuses multiscale visual features from a pre-trained YOLO backbone with semantic task embeddings from Sentence-BERT via a transformer fusion block, and decodes the result into high-resolution saliency maps.
 
 ---
 
@@ -37,7 +37,7 @@ Fixation maps are provided at 48 × 48 resolution.
 
 ## Results
 
-| Metric        | TDYSN (Ours) |
+| Metric        | TDSal (Ours) |
 |---------------|--------------|
 | **NSS**       | **3.53** |
 | **AUC-Borji** | **0.9489** |
