@@ -1,6 +1,6 @@
 import json
 
-NB = "/Users/canmizrakli/Desktop/8th semester/CMPE 490/TDSP.Net/TDSP_YOLO_v5.ipynb"
+NB = "/Users/canmizrakli/Documents/CMPE 490/TDSP.Net/TDSal.ipynb"
 
 # 1) Load the raw JSON
 with open(NB, "r", encoding="utf-8") as f:
